@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+ <div class="manu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+    </div>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">TEAVEL</h2>
+            <div class="toggle active"></div>
+            
+        </header>
+        <video src="production ID 4249215.mp4" muted autoplay loop></video>
+        <div class="Text">
+            <h1>NEVER STOP TO</h1>
+            <h2>EXPLORING THE WORLD</h2>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+                 impedit sequi facere deleniti dolor alias libero suscipit quae illo magnam.</P>
+                
+                 <a href="#">EXPLORE</a>
+        </div>
+        <ul class="socal">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+            <li><a href=""><img src="twitter.png" alt=""></a></li>
+        </ul>
+         <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div>
+                <h1>TEAVEL
+                </h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+    </footer>
+    </section>
+   
+<script>
+            const menuToggle = document.querySelector('.toggle');
+       const showcase = document.querySelector('.showcase');
+ 
+       menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active');
+         showcase.classList.toggle('active');
+       })
+       </script>
+    
+</body>
+</html>
